@@ -1,0 +1,11 @@
+Encapsulamiento:
+Herencia: Existe una clase base que tiene las cosas en común entre las clases derivadas. Cada clase derivada define sus propias funciones
+          que no comparte con el resto de sus clases "hermanas". La clase base pone las condiciones que deben tener sus clases derivadas
+          para formar parte de ella. La gracia es que se unnifica el lenguaje. Para buscar un método se sigue la clase de la herencia en
+          caso de no encontrar el método donde se busca. La clase derivada hereda lo de la clase base y le agrega cosas, es un superconjunto
+          de la clase base. 
+
+Clase abstracta: no se encuentra definida en su totalidad, no es capaz de crear objetos de ella. Se usa para definir otras clases derivadas.
+          Si uno de los métodos son abstractos, toda la clase es abstracta. No se pone __init__ porque no puede inniciar un objeto.
+
+Polimorfismo: capacidad que tiene un objeto de una clase para ser usado de distintas formas, se comporta de diferentes maneras. 
