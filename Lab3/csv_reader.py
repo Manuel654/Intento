@@ -20,7 +20,7 @@ class CsvReader:
         
         for i in list:
             if len(i)==15:
-                list2.append({"Nro. Región": i[0], 
+                list2.append({"Nro. Región": i[0], #esto se puede hacer directamente con el archivo usando line[posición].
                 "Región": i[1],
                 "Provincia": i[2],
                 "Circunscripción senatorial": i[3],

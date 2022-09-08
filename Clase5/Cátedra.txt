@@ -1,0 +1,2 @@
+Métodos de clase: no actúan sobre un objeto sino que sobre la clase. Se hace con @classmethod, t no recibe un self sino que  un "cls".
+List comprehension. 
