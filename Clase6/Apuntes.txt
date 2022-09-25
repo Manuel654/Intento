@@ -1,1 +1,6 @@
-Esta clase vimos
+Encapsulamiento: las clases tienen sus métodos y  sus datos.
+Datahiding: la clase protege sus datos. Se puede acceder a los datos pero no cambiarlos. 
+El '__' antes de definir las variables con self es decir que ese dato es privado. No se puede acceder desde afuera. 
+Para acceder a estos datos se usan las property, donde se cambian las variables en propiedades. Se sobreescribe. 
+Excepciones: es levantar un error. la palabra clave es 'raise'. Se usa con try, es decir, trata de ejecutar algo, y si no lo puede
+hacer se usa except con una ejecución posible. 
